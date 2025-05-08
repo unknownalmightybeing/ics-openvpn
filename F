@@ -1,0 +1,5 @@
+val vpnProfile = VpnProfile("myvpn")
+vpnProfile.remoteServerList = listOf("your.vpnserver.com")
+vpnProfile.username = "yourUsername"
+vpnProfile.password = "yourPassword"
+// Load OpenVPN profile and start connection
